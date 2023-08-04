@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+android:background="@drawable/background2"
+    tools:context=".ui.payment.PaymentFragment">
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Scanner"
+       android:layout_marginTop="20dp"
+       android:textColor="@color/black"
+       android:layout_gravity="center"
+       android:textSize="50sp"
+       android:textStyle="bold"
+       />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="460dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/scanner_img"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="G-PAY"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="89303-32423"
+
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        />
+
+</LinearLayout>
